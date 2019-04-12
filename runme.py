@@ -36,11 +36,6 @@ plot_tuples = [
     (2050, 'Deutschland', 'Elec'),  
     ]
 
-# plotting timesteps
-plot_periods = {
-    'all' timesteps[1:]
-}
-
 # add or change plot colors
 my_colors = {
     'Deutschland'(230, 200, 200),
