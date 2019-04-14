@@ -36,9 +36,17 @@ plot_tuples = [
     (2050, 'Deutschland', 'Elec'),  
     ]
 
+# plotting timesteps
+plot_periods = {
+    'all': timesteps[1:]
+}
+
 # add or change plot colors
 my_colors = {
-    'Deutschland'(230, 200, 200),
+          'Wind Onshore'(122, 179, 225)
+	  'Wind Offshore'(255, 0, 0)
+	  'GuD'(153, 153, 0)
+	  'Photovoltaics'(243, 174, 0),
     }
 for country, color in my_colors.items():
     urbs.COLORS[country] = color
